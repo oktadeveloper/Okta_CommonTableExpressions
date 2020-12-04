@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@model CTEsDemo.Models.DashboardIndexViewModel
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Customer Name</th>
+            <th>Quantity</th>
+            <th>Line Profit</th>
+            <th>Stock Item Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.Items)
+        {
+        <tr>
+            <td>@item.CustomerName</td>
+            <td>@item.Quantity</td>
+            <td>@item.LineProfit.ToString("C")</td>
+            <td>@item.StockItemName</td>
+        </tr>
+        }
+    </tbody>
+
+</table>
