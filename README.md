@@ -11,7 +11,7 @@ Clone the repo:
 git clone https://github.com/oktadeveloper/okta-sql-common-table-expressions-blog-repo.git
 ```
 
-Open the `CTEsDemo.csproj` project in Visual Studio, and use `F5` to run it.
+Open the `CTEsDemo.sln` solution in Visual Studio, and use `F5` to run it.
 
 ## Get Help
 
